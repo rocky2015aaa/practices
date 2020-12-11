@@ -1,0 +1,21 @@
+[
+  {
+    "task": "finishing homework",
+    "status": "completed"
+  },
+
+  {
+    "task": "informing the news",
+    "status": "not started"
+  },
+
+  {
+    "task": "checking daily issue",
+    "status": "completed"
+  },
+
+  {
+    "task": "washing dishes",
+    "status": "completed"
+  }
+]

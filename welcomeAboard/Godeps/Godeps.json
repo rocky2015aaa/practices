@@ -1,0 +1,27 @@
+{
+	"ImportPath": "github.com/myBoard/welcomeAboard",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/couchbase/gocb",
+			"Comment": "v1.2.2-3-g0adf92d",
+			"Rev": "0adf92da30d3766d77c1563609a5999540e8cd2e"
+		},
+		{
+			"ImportPath": "gopkg.in/couchbase/gocbcore.v7",
+			"Comment": "v6.0.0-3-gdeb7a9a",
+			"Rev": "deb7a9addb2fad3673765a0a97245f85b6c3ad36"
+		},
+		{
+			"ImportPath": "gopkg.in/couchbaselabs/gocbconnstr.v1",
+			"Comment": "v1.0.0",
+			"Rev": "f601f521a1ab1c99260c63441e1bbdbbc48b1bd9"
+		},
+		{
+			"ImportPath": "gopkg.in/couchbaselabs/jsonx.v1",
+			"Comment": "v1.0.0",
+			"Rev": "5b7baa20429a46a5543ee259664cc86502738cad"
+		}
+	]
+}

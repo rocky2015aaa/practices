@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="assets/css/login.css"/>
+</head>
+<body>
+<form action="/login" method="POST" enctype='application/json'>
+  <div class="imgcontainer">
+    <img src="assets/login.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input id="uname" type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
+
+    <button id="submitbtn" type="submit">Login</button>
+    <input id="remember_check" type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button id="cancelbtn" type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+<script src="view/login.js"></script>
+</body>
+</html>

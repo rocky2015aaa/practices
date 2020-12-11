@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "goMicroservice/auth/proto/auth.proto";
+
+service DB {
+    rpc LoadTodoList(AuthResponse) returns (DbResponse) {}
+}
+
+message Todo {
+    string task = 1;
+    string status = 2;
+}
+
+message DbResponse {
+    string username = 1;
+    repeated Todo todoList = 2;
+}
